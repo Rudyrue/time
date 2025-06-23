@@ -26,7 +26,7 @@ class Main {
 		}
 		
 		// ??????????? english
-		if (num >= 11 && num < 20) suffix = 'th';
+		if (num >= 10 && num < 20) suffix = 'th';
 		return '$num$suffix';
 	}
 }
